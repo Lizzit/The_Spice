@@ -225,39 +225,6 @@ li a {
 
 
 /**
- * per dispositivi medie e piccoli
- */
-
-@media screen and (max-width: 1024px) {
-    html,
-    body {
-        width: 100%;
-        height: auto;
-    }
-}
-
-@media screen and (min-width: 320px) {
-    html,
-    body {
-        margin: 0;
-        overflow-x: hidden;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    html,
-    body {
-        margin: 0;
-        overflow-x: hidden;
-    }
-    .nav {
-        width: 100%;
-        box-shadow: none
-    }
-}
-
-
-/**
  * Definiamo lo stile del titolo(logo) del panello  
 */
 
@@ -547,4 +514,80 @@ li a {
 
 p {
     font-style: bold;
+}
+
+
+/**
+ * per dispositivi medie e piccoli
+ */
+
+@media screen and (max-width: 1024px) {
+    .border2 {
+        width: 85%;
+        height: auto;
+        float: none;
+        display: block;
+        padding: 4px;
+        border-right: none;
+    }
+    .Antipasto {
+        height: auto;
+        width: 90%;
+    }
+    .Primo {
+        height: auto;
+        width: 100%;
+    }
+    .Primo1 {
+        height: auto;
+        width: 100%;
+    }
+    .Secondo {
+        height: auto;
+        width: 100%;
+    }
+    .Secondo1 {
+        height: auto;
+        width: 100%;
+    }
+    .Dessert {
+        height: auto;
+        width: 100%;
+    }
+    .linea_separazione {
+        height: auto;
+        width: 100%;
+    }
+    p {
+        width: 80%;
+    }
+}
+
+@media screen and (max-height: 1024px) {
+    html,
+    body {
+        margin: 0;
+        overflow-x: hidden;
+    }
+    .nav {}
+}
+
+@media screen and (min-width: 200px) {
+    html,
+    body {
+        margin: 0;
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width: 200px) {
+    html,
+    body {
+        margin: 0;
+        overflow-x: hidden;
+    }
+    .nav {
+        width: 100%;
+        box-shadow: none
+    }
 }
