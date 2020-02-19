@@ -586,10 +586,10 @@ p {
  */
 
 @media screen and (max-width: 1024px) {
-    .contenitore ul li {
+    /*.contenitore ul li {
         width: 40%;
         margin: 300px;
-    }
+    }*/
     .body {
         width: 85%;
         height: auto;
