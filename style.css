@@ -531,6 +531,9 @@ p {
         padding: 4px;
         border-right: none;
     }
+    .nav-toggle {
+        left: -2px;
+    }
     h1 {
         font-size: 250%;
     }
