@@ -517,12 +517,79 @@ p {
     font-style: bold;
 }
 
+.contenitore {
+    width: 95%;
+    overflow: hidden;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.contenitore ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.contenitore ul li {
+    list-style: none;
+    float: left;
+    width: 40%;
+    height: 500px;
+    background: red;
+    margin: 40px 30px 0px 55px;
+    /*bordo singolo*/
+    box-sizing: border-box;
+    border: 2px solid white;
+}
+
+.contenitore ul li:hover {
+    opacity: 0.9;
+}
+
+.contenitore ul li .title {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background: white;
+    text-align: center;
+}
+
+#menu_page {
+    background-image: url(img/Antipasto.jpg);
+    background-position: center;
+    background-size: 200%;
+    background-repeat: no-repeat;
+}
+
+#prenota_page {
+    background-image: url();
+    background-position: center;
+    background-size: 200%;
+    background-repeat: no-repeat;
+}
+
+#storia_page {
+    background-image: url();
+    background-position: center;
+    background-size: 200%;
+    background-repeat: no-repeat;
+}
+
+#dove_trovarci_page {
+    background-image: url(img/Portopalo_di_capo_passero.jpg);
+    background-size: 160%;
+    background-repeat: no-repeat;
+}
+
 
 /**
  * per dispositivi medie e piccoli
  */
 
 @media screen and (max-width: 1024px) {
+    .contenitore ul li {
+        width: 40%;
+        margin: 300px;
+    }
     .body {
         width: 85%;
         height: auto;
