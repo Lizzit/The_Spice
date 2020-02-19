@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The Spice | Prenota </title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Pacifico|Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="border">
+        <div class="border2">
+            <div class="lateral_menu">
+                <input type="checkbox" id="nav-toggle" hidden>
+                <nav class="nav">
+                    <label for="nav-toggle" class="nav-toggle" onclick></label>
+                    <h1 class="logo"><a href="#">The Spice</a></h1>
+
+
+                    <div class="lateral_menu">
+                        <ul>
+                            <li><a href="index.htm"> Home </a></li>
+                            <li><a href="Menu.htm"> Menu </a></li>
+                            <li><a href="#"> Prenota </a></li>
+                            <li><a href="Storia.htm"> Storia </a></li>
+                            <li><a href="Dove_Trovarci.htm"> Dove Trovarci </a></li>
+                        </ul>
+                    </div>
+                    <div class="mask-content"></div>
+                </nav>
+            </div>
+            <h1> The Spice: Prenotazioni </h1>
+
+            buildCal(curmonth, curyear, “main”, “month”, “daysofweek”, “days”, 1)
+
+            <form>
+                <select onChange=”updatecalendar(this.options)”>
+                <script type=”text/javascript”>
+                <!–
+                var themonths=[‘January’,’February’,’March’,’April’,’May’,’Junè,’July’,
+                ‘August’,’September’,’October’,’November’,’December’]
+                var todaydate=new Date()
+                var curmonth=todaydate.getMonth()+1 // mese corrente (1-12)
+                var curyear=todaydate.getFullYear() // anno corrente
+                function updatecalendar(theselection){
+                var themonth=parseInt(theselection[theselection.selectedIndex].value)+1
+                var calendarstr=buildCal(themonth, curyear, “main”, “month”, “daysofweek”,
+                “days”, 0) if (document.getElementById)
+                document.getElementById(“calendarspace”).innerHTML=calendarstr
+                }
+                document.write(‘<option value=”‘+(curmonth-1)+'”
+                selected=”yes”>Current Month</option>’) for (i=0; i<12; i++) // mostra i tag option per i 12 mesi dell’anno
+                document.write(‘<option value=”‘+i+'”>’+themonths[i]+’
+                ‘+curyear+'</option>’) //–>
+                </script>
+                </select>
+            </form>
+
+            <footer>
+                <div class="footer">
+                    //mail, ig, telefono
+                    <div class="footer-copyright">
+                        <div class="container">
+                            Made by <a class="brown-text text-lighten-3" href="#">Elia, Matteo, Marta, Federica, Simone &copy</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>+
