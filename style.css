@@ -35,6 +35,7 @@
     margin: 0 auto;
     max-width: 1280px;
     width: 90%;
+    font-size: 90%;
 }
 
 h1 {
@@ -522,13 +523,19 @@ p {
  */
 
 @media screen and (max-width: 1024px) {
-    .border2 {
+    .body {
         width: 85%;
         height: auto;
         float: none;
         display: block;
         padding: 4px;
         border-right: none;
+    }
+    h1 {
+        font-size: 250%;
+    }
+    h2 {
+        font-size: 150%;
     }
     .Antipasto {
         height: auto;
@@ -561,15 +568,9 @@ p {
     p {
         width: 80%;
     }
-}
-
-@media screen and (max-height: 1024px) {
-    html,
-    body {
-        margin: 0;
-        overflow-x: hidden;
+    .container {
+        font-size: 65%;
     }
-    .nav {}
 }
 
 @media screen and (min-width: 200px) {
