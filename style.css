@@ -518,10 +518,10 @@ p {
 }
 
 .contenitore {
-    width: 95%;
+    width: 90%;
     overflow: hidden;
     margin: 20px auto;
-    padding: 20px;
+    padding: 20px 0px;
 }
 
 .contenitore ul {
@@ -535,7 +535,7 @@ p {
     width: 40%;
     height: 500px;
     background: red;
-    margin: 40px 30px 0px 55px;
+    margin: 40px 40px 0px 40px;
     /*bordo singolo*/
     box-sizing: border-box;
     border: 2px solid white;
@@ -556,27 +556,23 @@ p {
 #menu_page {
     background-image: url(img/Antipasto.jpg);
     background-position: center;
-    background-size: 200%;
     background-repeat: no-repeat;
 }
 
 #prenota_page {
     background-image: url();
     background-position: center;
-    background-size: 200%;
     background-repeat: no-repeat;
 }
 
 #storia_page {
     background-image: url();
     background-position: center;
-    background-size: 200%;
     background-repeat: no-repeat;
 }
 
 #dove_trovarci_page {
     background-image: url(img/Portopalo_di_capo_passero.jpg);
-    background-size: 160%;
     background-repeat: no-repeat;
 }
 
@@ -585,11 +581,26 @@ p {
  * per dispositivi medie e piccoli
  */
 
-@media screen and (max-width: 1024px) {
-    /*.contenitore ul li {
+@media screen and (max-width: 1250px) {
+    .contenitore ul li {
         width: 40%;
-        margin: 300px;
-    }*/
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .contenitore {
+        width: 100%;
+        padding: 0px;
+    }
+    .contenitore ul li {
+        float: none;
+        width: 90%;
+        margin: 40px auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
     .body {
         width: 85%;
         height: auto;
