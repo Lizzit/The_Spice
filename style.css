@@ -27,12 +27,13 @@
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding: 10px 0px;
+    padding: 0px 0px 0px 0px;
     background-color: rgba(51, 51, 51, 0.08);
+    margin-left: 0px;
 }
 
 .container {
-    margin: 0 auto;
+    margin: 0px 7px;
     max-width: 1280px;
     width: 90%;
     font-size: 90%;
@@ -551,6 +552,8 @@ p {
     line-height: 50px;
     background: white;
     text-align: center;
+    text-decoration: none;
+    color: black;
 }
 
 #menu_page {
@@ -574,6 +577,7 @@ p {
 #dove_trovarci_page {
     background-image: url(img/Portopalo_di_capo_passero.jpg);
     background-repeat: no-repeat;
+    background-size: 130%;
 }
 
 
@@ -585,6 +589,7 @@ p {
     .contenitore ul li {
         width: 40%;
         margin-left: 40px;
+        background-size: 170%;
     }
 }
 
@@ -608,9 +613,6 @@ p {
         display: block;
         padding: 4px;
         border-right: none;
-    }
-    .nav-toggle {
-        left: -2px;
     }
     h1 {
         font-size: 250%;
