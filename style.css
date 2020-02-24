@@ -591,6 +591,9 @@ p {
         margin-left: 40px;
         background-size: 170%;
     }
+    table {
+        width: 90%;
+    }
 }
 
 @media screen and (max-width: 750px) {
@@ -602,6 +605,10 @@ p {
         float: none;
         width: 90%;
         margin: 40px auto;
+    }
+    form {
+        align-content: center;
+        width: 100%;
     }
 }
 
