@@ -7,13 +7,14 @@
     <meta name="keywords" content="parole chiave," />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Spice | Prenota </title>
+    <!--<link rel="stylesheet" href="get.css" type="text/css">-->
     <link rel="stylesheet" href="style.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Pacifico|Yanone+Kaffeesatz&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
-    <link rel="stylesheet" href="get.css">
+
 </head>
 
-<body>
+<body class="Menu">
     <div class="border">
         <div class="border2">
             <div class="body">
@@ -43,102 +44,44 @@
                         <input type="hidden" name="EMAILHOTEL" value="marreova02@gmail.com">
                         <input type="hidden" name="Risposta" value="www.thespice.com">
 
-                        <table width="500px" border="0">
-                            <tr>
-                                <td> </td>
-                                <td colspan="2"><b>Modulo richiesta di prenotazione:</b><br></td>
-                            </tr>
-                            <tr>
-                                <td align="right"> * Nome: </td>
-                                <td><input type="text" name="nome" size="45" value=""></td>
-                                <td> </td>
-                            </tr>
-                            <tr>
-                                <td align="right"> * Cognome: </td>
-                                <td><input type="text" name="cognome" size="45" value=""></td>
-                                <td> </td>
-                            </tr>
-                            <tr>
-                                <td align="right"> * Telefono: </td>
-                                <td><input type="text" name="telefono" size="15" value=""></td>
-                                <td> </td>
-                            </tr>
+                        <table width="50%" border="0">
+                            <br>
+                            <h3 colspan="2"><b>Modulo richiesta di prenotazione:</b></h3>
 
-                            <tr>
-                                <td align="right"> * E-Mail: </td>
-                                <td><input type="text" name="email" size="45" value=""></td>
-                                <td> </td>
-                            </tr>
-                            <tr>
-                                <td align="right"> * Data Prenotazione: </td>
-                                <td>
-                                    <select name="giornoarrivo"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option></select>
+                            <br> * Nome: <input type="text" name="nome" size="45" value="">
 
-                                    <select name="mesearrivo"><option value="1">gennaio</option><option value="2">febbraio</option><option value="3">marzo</option><option value="4">aprile</option><option value="5">maggio</option><option value="6">giugno</option><option value="7">luglio</option><option value="8">agosto</option><option value="9">settembre</option><option value="10">ottobre</option><option value="11">novembre</option><option value="12">dicembre</option></select>
-                                    <select name="annoarrivo"><option value="2020" selected>2020</option><option value="2021" >2021</option></select>
-                                </td>
-                                <td> </td>
-                            </tr>
-                            <tr>
-                                <td align="right"> * N. Adulti: </td>
-                                <td>
-                                    <select name="numeroadulti"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option></select>                                    * N. Bambini:
-                                    <select name="numerobambini"><option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option></select>
-                                </td>
-                                <td> </td>
-                            </tr>
-                            <tr>
-                                <td align="right"> Note: </td>
-                                <td><input type="text" name="note" size="45" value=""></td>
-                                <td> </td>
-                            </tr>
-                            <tr>
-                                <td> </td>
-                                <td><br><input type="submit" value="Clicca per richiedere disponibilità"><br><br></td>
-                                <td> </td>
-                            </tr>
-                            <p>
-                                <td> </td>
-                                <td> * I campi contrassegnati dall'asterisco sono obbligatori<br> Ogni richiesta è subordinata alla conferma del ristorante<br><br></td>
-                            </p>
+                            <br><br> * Cognome: <input type="text" name="cognome" size="45" value="">
+
+                            <br><br> * Telefono: <input type="text" name="telefono" size="15" value="">
+
+                            <br><br> * E-Mail: <input type="text" name="email" size="45" value="">
+
+                            <br><br> * Data Prenotazione: <select name="giornoarrivo"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option></select>
+                            <select name="mesearrivo"><option value="1">Gennaio</option><option value="2">Febbraio</option><option value="3">Marzo</option><option value="4">Aprile</option><option value="5">Maggio</option><option value="6">Giugno</option><option value="7">Luglio</option><option value="8">Agosto</option><option value="9">Settembre</option><option value="10">Ottobre</option><option value="11">Novembre</option><option value="12">Dicembre</option></select>
+                            <select name="annoarrivo"><option value="2020" selected>2020</option><option value="2021" >2021</option></select>
+
+                            <br><br> * N. Adulti: <select name="numeroadulti"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option></select>                            * N. Bambini:
+                            <select name="numerobambini"><option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option></select>
+
+
+                            <br><br> * Note: <input type="text" name="note" size="45" height="45" value="">
+                            <br><br><input type="submit" value="Clicca per richiedere disponibilità"><br><br>
+
                         </table>
                     </form>
+                    <p width="100%">
+                        * I campi contrassegnati dall'asterisco sono obbligatori<br> Ogni richiesta è subordinata alla conferma del ristorante<br><br>
+                    </p>
                 </center>
 
-                <script src="get.js">
-                </script>
             </div>
-
-            <!--buildCal(curmonth, curyear, “main”, “month”, “daysofweek”, “days”, 1)
-
-            <form>
-                <select onChange=”updatecalendar(this.options)”>
-                <script type=”text/javascript”>
-                <!–
-                var themonths=[‘January’,’February’,’March’,’April’,’May’,’Junè,’July’,
-                ‘August’,’September’,’October’,’November’,’December’]
-                var todaydate=new Date()
-                var curmonth=todaydate.getMonth()+1 // mese corrente (1-12)
-                var curyear=todaydate.getFullYear() // anno corrente
-                function updatecalendar(theselection){
-                var themonth=parseInt(theselection[theselection.selectedIndex].value)+1
-                var calendarstr=buildCal(themonth, curyear, “main”, “month”, “daysofweek”,
-                “days”, 0) if (document.getElementById)
-                document.getElementById(“calendarspace”).innerHTML=calendarstr
-                }
-                document.write(‘<option value=”‘+(curmonth-1)+'”
-                selected=”yes”>Current Month</option>’) for (i=0; i<12; i++) // mostra i tag option per i 12 mesi dell’anno
-                document.write(‘<option value=”‘+i+'”>’+themonths[i]+’
-                ‘+curyear+'</option>’) //–>
-                </script>
-                </select>
-            </form>-->
 
             <footer>
                 <div class="footer">
                     //mail, ig, telefono
                     <div class="footer-copyright">
                         <div class="container">
+                            <p>Questo sito è un test per una prova esame. <br> Tutto ciò che vedrai all'interno è fittizio e con solo scopo didattico</p>
                             Made by <a class="brown-text text-lighten-3" href="#">Elia, Matteo, Marta, Federica, Simone &copy</a>
                         </div>
                     </div>

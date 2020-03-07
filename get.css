@@ -1,13 +1,10 @@
 body {
     margin: 0;
-    color: #444;
-    background-color: #98c2c2;
     font: 300 18px/18px;
     font-family: 'Roboto Condensed', sans-serif;
     transition: background .4s ease-in-out 0s;
 }
 
-*,
 :after,
 :before {
     box-sizing: border-box
