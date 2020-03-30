@@ -128,7 +128,6 @@ li a {
     margin: 0;
     left: -200px;
     padding: 10px 20px;
-    padding-right: 10px;
     -webkit-transition: left 0.3s;
     -moz-transition: left 0.3s;
     transition: left 0.3s;
@@ -157,6 +156,36 @@ li a {
     -webkit-transition: color 0.25s ease-in-out;
     -moz-transition: color 0.25s ease-in-out;
     transition: color 0.25s ease-in-out;
+}
+
+.social {
+    position: absolute;
+    /* rispetto bordo sinistro del pannello  */
+    left: 200px;
+    top: 1em;
+    width: 10px;
+    padding: 0;
+    padding-top: 40px;
+    background: inherit;
+    /*colore pulsante*/
+    color: #dadada;
+    /* colore del testo */
+    cursor: pointer;
+    /* tipo del cursore */
+    font-size: 1.2em;
+    line-height: 1;
+    z-index: 2001;
+    /* sempre in prima vista rispetto altri elementi della pagina  */
+    /* animazione del colore del testo al hover */
+    -webkit-transition: color 0.25s ease-in-out;
+    -moz-transition: color 0.25s ease-in-out;
+    transition: color 0.25s ease-in-out;
+}
+
+.soc_img {
+    height: 40px;
+    width: auto;
+    padding-top: 10px;
 }
 
 .nav-toggle:after {
@@ -487,7 +516,7 @@ li a {
 
 .Menu {
     background-color: #fffdd0;
-    padding-left: 30px;
+    padding-left: 40px;
 }
 
 .main {
@@ -544,7 +573,7 @@ p {
     list-style: none;
     float: left;
     width: 40%;
-    height: 500px;
+    height: 300px;
     background: red;
     margin: 40px 40px 0px 40px;
     /*bordo singolo*/
@@ -624,6 +653,9 @@ p {
         align-content: center;
         width: 100%;
     }
+    .nav {
+        padding-right: 10px;
+    }
     .body {
         font-size: 80%;
     }
@@ -632,6 +664,9 @@ p {
     #storia_page,
     #dove_trovarci_page {
         height: 300px;
+    }
+    .Menu {
+        padding-left: 30px;
     }
 }
 
