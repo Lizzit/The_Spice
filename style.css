@@ -197,6 +197,13 @@ li a {
     color: red;
 }
 
+.agenda {
+    background-image: url(img/Agenda.png);
+    background-size: 660px, auto;
+    background-repeat: no-repeat;
+    background-position: 240px;
+}
+
 
 /**
  * Checkbox nascosto
@@ -574,7 +581,7 @@ p {
     float: left;
     width: 40%;
     height: 300px;
-    background: red;
+    background: white;
     margin: 40px 40px 0px 40px;
     /*bordo singolo*/
     box-sizing: border-box;
@@ -606,7 +613,7 @@ p {
 }
 
 #prenota_page {
-    background-image: url();
+    background-image: url(img/Agenda2.png);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -668,6 +675,15 @@ p {
     .Menu {
         padding-left: 30px;
     }
+    .agenda {
+        background-size: 660px, auto;
+        background-repeat: no-repeat;
+        background-position: 100px;
+    }
+    .soc_img {
+        height: 30px;
+        width: auto;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -718,6 +734,11 @@ p {
     }
     .container {
         font-size: 65%;
+    }
+    .agenda {
+        background-size: 660px, auto;
+        background-repeat: no-repeat;
+        background-position: -40px;
     }
 }
 
