@@ -118,6 +118,10 @@ li a {
     height: 100%;
 }
 
+h4 {
+    text-decoration: none;
+}
+
 .nav {
     width: 200px;
     min-width: 200;
