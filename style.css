@@ -13,10 +13,6 @@
     height: 100%;
 }
 
-.lang {
-    text-decoration: none;
-}
-
 h1 {
     text-align: center;
     text-decoration: none;
@@ -38,4 +34,32 @@ h1 {
 .english {
     height: 100px;
     width: auto;
+}
+
+.langbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.langbtn:hover,
+.langbtn:focus {
+    background-color: #2980B9;
+}
+
+.lang {
+    position: relative;
+    display: inline-block;
+}
+
+.lang-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
 }

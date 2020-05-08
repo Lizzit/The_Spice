@@ -9,28 +9,36 @@
     <title> The Spice | Menu </title>
     <link rel="stylesheet" href="style.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Pacifico|Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+    <script src="lang.js"></script>
 </head>
 
 <body class="Menu">
     <div class="border">
         <div class="border2">
+
+            <div class="lang">
+                <button onclick="myFunction()" class="langbtn">Italiano</button>
+                <div id="myLang" class="lang-content">
+                    <a href="../en/Menu.htm">English</a>
+                </div>
+            </div>
+
             <div class="body">
                 <div class="lateral_menu">
                     <input type="checkbox" id="nav-toggle" hidden>
                     <nav class="nav">
                         <label for="nav-toggle" class="nav-toggle" onclick></label>
                         <div class="social">
-                            <a href="#"><img class="soc_img" src="https://socialmediawidgets.files.wordpress.com/2014/03/02_facebook1.png" alt="Facebook" title="Facebook"></a>
-                            <a href="#"><img class="soc_img" src="https://socialmediawidgets.files.wordpress.com/2014/03/10_instagram.png" alt="Instagram" title="Instagram"></a>
-                            <a href="#"><img class="soc_img" src="https://socialmediawidgets.files.wordpress.com/2014/03/01_twitter1.png" alt="Twitter" title="Twitter"></a>
-                            <a href="#"><img class="soc_img" src="https://socialmediawidgets.files.wordpress.com/2014/03/07_linkedin1.png" alt="LinkedIn" title="LinkedIn"></a>
-                            <a href="#"><img class="soc_img" src="https://socialmediawidgets.files.wordpress.com/2014/03/" alt="" title=""></a>
+                            <a id="fb" href="#"><img class="soc_img" src="img/fb_logo.png" alt="Facebook" title="Facebook"></a>
+                            <a id="ig" href="#"><img class="soc_img" src="img/ig_logo.png" alt="Instagram" title="Instagram"></a>
+                            <a id="tw" href="#"><img class="soc_img" src="img/twitter_logo.png" alt="Twitter" title="Twitter"></a>
+                            <a id="li" href="#"><img class="soc_img" src="img/li_logo.png" alt="LinkedIn" title="LinkedIn"></a>
                         </div>
                         <h1 class="logo"><a href="#">The Spice</a></h1>
 
                         <div class="lateral_menu">
                             <ul>
-                                <li><a href="index.htm"> Home </a></li>
+                                <li><a href="../index.htm"> Home </a></li>
                                 <li><a href="#"> Menu </a></li>
                                 <li><a href="Prenota.htm"> Prenota </a></li>
                                 <li><a href="Storia.htm"> Storia </a></li>
@@ -40,7 +48,9 @@
                         <div class="mask-content"></div>
                     </nav>
                 </div>
+
                 <h1> The Spice: Menù </h1>
+
                 <center>
                     <h2>Antipasti</h2>
                     <img class="Antipasto" src="img/Antipasto.jpg" alt="Antipasto">
@@ -70,7 +80,6 @@
 
             <footer>
                 <div class="footer">
-                    //mail, ig, telefono
                     <div class="footer-copyright">
                         <div class="container">
                             <p>Questo sito è un test per una prova esame. <br> Tutto ciò che vedrai all'interno è fittizio e con solo scopo didattico</p>

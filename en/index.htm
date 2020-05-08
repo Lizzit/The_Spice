@@ -9,22 +9,30 @@
     <title>The Spice | Home </title>
     <link rel="stylesheet" href="style.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Pacifico|Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+    <script src="lang.js"></script>
 </head>
 
 <body class="Menu">
     <div class="border">
         <div class="border2">
+
+            <div class="lang">
+                <button onclick="myFunction()" class="langbtn">English</button>
+                <div id="myLang" class="lang-content">
+                    <a href="../index.htm">Italiano</a>
+                </div>
+            </div>
+
             <div class="body">
                 <div class="lateral_menu">
                     <input type="checkbox" id="nav-toggle" hidden>
                     <nav class="nav">
                         <label for="nav-toggle" class="nav-toggle" onclick></label>
                         <div class="social">
-                            <a href="#"><img class="soc_img" src="https://socialmediawidgets.files.wordpress.com/2014/03/02_facebook1.png" alt="Facebook" title="Facebook"></a>
-                            <a href="#"><img class="soc_img" src="https://socialmediawidgets.files.wordpress.com/2014/03/10_instagram.png" alt="Instagram" title="Instagram"></a>
-                            <a href="#"><img class="soc_img" src="https://socialmediawidgets.files.wordpress.com/2014/03/01_twitter1.png" alt="Twitter" title="Twitter"></a>
-                            <a href="#"><img class="soc_img" src="https://socialmediawidgets.files.wordpress.com/2014/03/07_linkedin1.png" alt="LinkedIn" title="LinkedIn"></a>
-                            <a href="#"><img class="soc_img" src="https://socialmediawidgets.files.wordpress.com/2014/03/" alt="" title=""></a>
+                            <a class="logo" href="#"><img class="soc_img" src="img/fb_logo.png" alt="Facebook" title="Facebook"></a>
+                            <a class="logo" href="#"><img class="soc_img" src="img/ig_logo.png" alt="Instagram" title="Instagram"></a>
+                            <a class="logo" href="#"><img class="soc_img" src="img/twitter_logo.png" alt="Twitter" title="Twitter"></a>
+                            <a class="logo" href="#"><img class="soc_img" src="img/li_logo.png" alt="LinkedIn" title="LinkedIn"></a>
                         </div>
                         <h1 class="logo"><a href="#">The Spice</a></h1>
 
@@ -34,12 +42,13 @@
                                 <li><a href="Menu.htm"> Menu </a></li>
                                 <li><a href="Prenota.htm"> Booking </a></li>
                                 <li><a href="Storia.htm"> History </a></li>
-                                <li><a href="Dove_Trovarci.htm"> Where find us </a></li>
+                                <li><a href="Dove_Trovarci.htm"> Location </a></li>
                             </ul>
                         </div>
                         <div class="mask-content"></div>
                     </nav>
                 </div>
+
                 <h1> The spice </h1>
 
                 <div class="contenitore">
@@ -61,7 +70,7 @@
                         </a>
                         <a href="Dove_Trovarci.htm">
                             <li id="dove_trovarci_page">
-                                <div class="title">Where find us</div>
+                                <div class="title">Location</div>
                             </li>
                         </a>
                         <!--<li>
@@ -74,18 +83,17 @@
                 </div>
 
             </div>
-            <footer class="page-footer teal">
-                <div class="footer-copyright">
-                    <div class="container">
-                        <p>This site is a test for an exam. <br> Everything you can see is only for scool.</p>
-                        Made by <a class="brown-text text-lighten-3" href="#">Elia, Matteo, Marta, Federica, Simone &copy</a>
-                        <br><br>
+            <footer>
+                <div class="footer">
+                    <div class="footer-copyright">
+                        <div class="container">
+                            <p>This site is a test for an exam. <br> Everything you can see is only for scool.</p>
+                            Made by <a class="brown-text text-lighten-3" href="#">Elia, Matteo, Marta, Federica, Simone &copy</a>
+                        </div>
                     </div>
                 </div>
+            </footer>
         </div>
-
-        </footer>
-    </div>
     </div>
 
 </body>

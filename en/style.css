@@ -99,6 +99,16 @@ li a {
     height: 100%;
 }*/
 
+map {
+    border: solid;
+    border-color: #003399;
+    border-top-width: 5px;
+    position: relative;
+    left: 0px;
+    display: block;
+    height: 100%;
+}
+
 .border {
     border: solid;
     border-color: #003399;
@@ -116,6 +126,10 @@ li a {
     position: relative;
     left: 0px;
     height: 100%;
+}
+
+h4 {
+    text-decoration: none;
 }
 
 .nav {
@@ -163,9 +177,9 @@ li a {
     /* rispetto bordo sinistro del pannello  */
     left: 200px;
     top: 1em;
-    width: 10px;
+    width: 40px;
     padding: 0;
-    padding-top: 40px;
+    margin-top: 40px;
     background: inherit;
     /*colore pulsante*/
     color: #dadada;
@@ -184,8 +198,14 @@ li a {
 
 .soc_img {
     height: 40px;
-    width: auto;
-    padding-top: 10px;
+    width: 40px;
+    margin-top: 10px;
+    border-radius: 25px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
 }
 
 .nav-toggle:after {
@@ -597,37 +617,42 @@ p {
 }
 
 .contenitore ul li .title {
-    width: 100%;
+    width: auto;
     height: 50px;
     line-height: 50px;
     background: white;
     text-align: center;
     text-decoration: none;
     color: black;
+    border-radius: 15px 15px 0px 0px;
 }
 
 #menu_page {
     background-image: url(img/Antipasto.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 20px;
 }
 
 #prenota_page {
     background-image: url(img/Agenda2.png);
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 20px;
 }
 
 #storia_page {
     background-image: url();
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 20px;
 }
 
 #dove_trovarci_page {
     background-image: url(img/Portopalo_di_capo_passero.jpg);
     background-repeat: no-repeat;
     background-size: 130%;
+    border-radius: 20px;
 }
 
 
@@ -760,4 +785,55 @@ p {
         width: 100%;
         box-shadow: none
     }
+}
+
+.langbtn {
+    background-color: #3498DB;
+    /* Colore chiaro */
+    color: white;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.langbtn:hover,
+.langbtn:focus {
+    background-color: #2980B9;
+    /*Colore scuro */
+}
+
+.lang {
+    right: 0px;
+    position: absolute;
+    display: inline-block;
+}
+
+.lang-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    /* Colore sfondo lingue */
+    font-size: 14px;
+    min-width: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.lang-content a {
+    color: black;
+    padding: 10px 14px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd
+}
+
+.show {
+    display: block;
 }
