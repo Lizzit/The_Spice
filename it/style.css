@@ -208,7 +208,8 @@ h4 {
     height: 40px;
 }
 
-#fb {
+
+/*.nav-toggle: #fb {
     transform: translate(0px, 200px);
 }
 
@@ -216,7 +217,7 @@ h4 {
 
 #tw {}
 
-#li {}
+#li {}*/
 
 .nav-toggle:after {
     content: '\2630';
@@ -729,6 +730,9 @@ p {
         display: block;
         padding: 4px;
         border-right: none;
+    }
+    .social {
+        width: 30px;
     }
     h1 {
         font-size: 250%;
